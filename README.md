@@ -40,7 +40,7 @@ _vfp.FoxBuilder.DeleteCharAt(12) // Hello World
 
 //IndexOf()
 _vfp.FoxBuilder.Append("Hello World!")
-_vfp1.FoxBuilder.IndexOf("lo") // 4
+_vfp.FoxBuilder.IndexOf("lo") // 4
 
 // LastIndexOf()
 _vfp.FoxBuilder.Append("Hello World!")
