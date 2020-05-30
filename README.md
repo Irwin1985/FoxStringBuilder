@@ -19,7 +19,7 @@ Just copy the FoxStringBuilder prg anywhere into your project PATH folder.
 // declare the FoxStringBuilder Prg
 Set Procedure to "FoxStringBuilder" Additive
 
-// Instantiate FoxRegEx Object
+// Instantiate FoxStringBuilder Object
 =AddProperty(_vfp, "FoxBuilder", CreateObject("FoxStringBuilder"))
 // Get Version
 _vfp.FoxBuilder.GetVersion()
