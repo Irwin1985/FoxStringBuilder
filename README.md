@@ -28,7 +28,7 @@ _vfp.FoxBuilder.Append("Hello")
 _vfp.FoxBuilder.Append(" World!")
 _vfp.FoxBuilder.ToString()
 
-// It is also posible to append in constructor (including another FoxStringBuilder object)
+// It is also posible appending in constructor (including another FoxStringBuilder object)
 loBuilder = CreateObject("FoxStringBuilder", "Hello World!")
 
 // you may also append any data type into string by calling the same Append() method.
